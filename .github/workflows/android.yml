@@ -35,5 +35,5 @@ jobs:
       - name: Upload Android Release
         uses: actions/upload-artifact@v3
         with:
-          name: android-release.apk
+          name: android-release
           path: filcnaplo/build/app/outputs/flutter-apk/app-release.apk
